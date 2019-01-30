@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\dxd8504\Documents\PI_PO_register_74175\simulation\qsim
+vpi_po_register_74175
+Z1 !s100 AD00L1JGTh<YM?UAdBhzc3
+Z2 Ij4<f>RM<W=]6^;0TQ2Di32
+Z3 V@IHO<9Me;PeO2GnPOf4OX2
+Z4 dC:\Users\dxd8504\Documents\PI_PO_register_74175\simulation\qsim
+Z5 w1521819063
+Z6 8pi_po_register_74175.vo
+Z7 Fpi_po_register_74175.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|pi_po_register_74175.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1521819063.997000
+Z12 !s107 pi_po_register_74175.vo|
+!s101 -O0
+vpi_po_register_74175_vlg_check_tst
+!i10b 1
+Z13 !s100 D2g^H]ClN=G_MWfSSTRNE2
+Z14 II=IfUiAzDj=g=;;mM<N>W1
+Z15 V<VWzH6?lJ2@Nc@2CY>Xlc3
+R4
+Z16 w1521819062
+Z17 8pi_po_register_74175.vt
+Z18 Fpi_po_register_74175.vt
+L0 67
+R8
+r1
+!s85 0
+31
+Z19 !s108 1521819064.108000
+Z20 !s107 pi_po_register_74175.vt|
+Z21 !s90 -work|work|pi_po_register_74175.vt|
+!s101 -O0
+R10
+vpi_po_register_74175_vlg_sample_tst
+!i10b 1
+Z22 !s100 @>>QdTM4MU`^mA:cdH9Wg3
+Z23 IGeNA]TC28keL>K@Bm>HPn1
+Z24 V9VUYbZOGm4zVbhV1ZGDhE2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vpi_po_register_74175_vlg_vec_tst
+!i10b 1
+!s100 MC@?HjQzeA<ADSj9g@_U60
+IZY5Kz_Oj1J6V>D?<@lUck2
+Z25 Vfkk0Ci68QS<JFC`>LoJIL0
+R4
+R16
+R17
+R18
+Z26 L0 247
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10

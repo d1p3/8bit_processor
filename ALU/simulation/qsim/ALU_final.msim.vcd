@@ -1,0 +1,180 @@
+$comment
+	File created using the following command:
+		vcd file ALU_final.msim.vcd -direction
+$end
+$date
+	Thu May 03 14:40:37 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module ALU_final_vlg_vec_tst $end
+$var reg 1 ! A0 $end
+$var reg 1 " A1 $end
+$var reg 1 # A2 $end
+$var reg 1 $ A3 $end
+$var reg 1 % B0 $end
+$var reg 1 & B1 $end
+$var reg 1 ' B2 $end
+$var reg 1 ( B3 $end
+$var reg 1 ) s0 $end
+$var reg 1 * s1 $end
+$var wire 1 + carry $end
+$var wire 1 , Overload $end
+$var wire 1 - r0 $end
+$var wire 1 . r1 $end
+$var wire 1 / r2 $end
+$var wire 1 0 r3 $end
+$var wire 1 1 sampler $end
+$scope module i1 $end
+$var wire 1 2 gnd $end
+$var wire 1 3 vcc $end
+$var wire 1 4 unknown $end
+$var tri1 1 5 devclrn $end
+$var tri1 1 6 devpor $end
+$var tri1 1 7 devoe $end
+$var wire 1 8 adder_with_carry|adder2|inst5~0_combout $end
+$var wire 1 9 B3~combout $end
+$var wire 1 : A3~combout $end
+$var wire 1 ; s0~combout $end
+$var wire 1 < A1~combout $end
+$var wire 1 = B1~combout $end
+$var wire 1 > adder_with_carry|adder2|inst5~1_combout $end
+$var wire 1 ? A2~combout $end
+$var wire 1 @ B2~combout $end
+$var wire 1 A adder_with_carry|adder4|inst1~0_combout $end
+$var wire 1 B inst6~combout $end
+$var wire 1 C adder_with_carry|adder4|inst5~0_combout $end
+$var wire 1 D adder_with_carry|adder4|inst5~1_combout $end
+$var wire 1 E s1~combout $end
+$var wire 1 F B0~combout $end
+$var wire 1 G A0~combout $end
+$var wire 1 H Multiplexer|22~0_combout $end
+$var wire 1 I Multiplexer|23~0_combout $end
+$var wire 1 J Multiplexer|23~1_combout $end
+$var wire 1 K Multiplexer|24~0_combout $end
+$var wire 1 L Multiplexer|24~1_combout $end
+$var wire 1 M Multiplexer|25~0_combout $end
+$var wire 1 N Multiplexer|25~1_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1!
+0"
+0#
+0$
+1%
+0&
+0'
+0(
+0)
+0*
+0+
+0,
+0-
+1.
+0/
+00
+x1
+02
+13
+x4
+15
+16
+17
+18
+09
+0:
+0;
+0<
+0=
+0>
+0?
+0@
+0A
+0B
+0C
+0D
+0E
+1F
+1G
+0H
+1I
+1J
+0K
+0L
+0M
+0N
+$end
+#50000
+0!
+0%
+0G
+0F
+01
+0I
+08
+0J
+0.
+#100000
+1$
+1(
+1:
+19
+11
+1D
+1A
+1N
+0N
+1B
+1+
+10
+00
+1,
+#150000
+1"
+1#
+1!
+0$
+0(
+1<
+1?
+1G
+0:
+09
+01
+1J
+1L
+0A
+1H
+0D
+1N
+0N
+0B
+1.
+1/
+1-
+0+
+10
+00
+0,
+#200000
+0"
+0#
+0!
+0<
+0?
+0G
+11
+0J
+0L
+0H
+0.
+0/
+0-
+#1000000

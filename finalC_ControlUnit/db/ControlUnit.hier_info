@@ -1,0 +1,97 @@
+|ControlUnit
+c0 <= Controller:Controller_.c0
+w => ID:ID.w
+x => ID:ID.x
+y => ID:ID.y
+z => ID:ID.z
+clock => negedge_clock.IN0
+reset => negedge_clock1.IN0
+c2 <= Controller:Controller_.c2
+c3 <= Controller:Controller_.c3
+c4 <= Controller:Controller_.c4
+c5 <= Controller:Controller_.c5
+c7 <= Controller:Controller_.c7
+c8 <= Controller:Controller_.c8
+c12 <= Controller:Controller_.c12
+c9 <= Controller:Controller_.c9
+c13 <= Controller:Controller_.c13
+c11 <= Controller:Controller_.c11
+c10 <= Controller:Controller_.c10
+c16 <= Controller:Controller_.c16
+c1 <= Controller:Controller_.c1
+
+
+|ControlUnit|Controller:Controller_
+LDA => nextstate[0].OUTPUTSELECT
+LDA => nextstate[1].OUTPUTSELECT
+LDA => nextstate[1].IN1
+STA => nextstate[0].OUTPUTSELECT
+STA => nextstate[1].OUTPUTSELECT
+STA => nextstate[1].IN1
+STA => nextstate[3].DATAA
+STA => nextstate[2].DATAA
+ADD => nextstate[0].OUTPUTSELECT
+ADD => nextstate[1].OUTPUTSELECT
+ADD => nextstate[1].IN1
+ADD => nextstate[2].OUTPUTSELECT
+ADD => nextstate[3].OUTPUTSELECT
+ADD => nextstate[4].OUTPUTSELECT
+SUB => ~NO_FANOUT~
+XOR => ~NO_FANOUT~
+INC => nextstate[1].IN0
+CLR => nextstate[1].IN1
+CLR => nextstate[0].DATAA
+CLR => nextstate[1].DATAA
+JMP => nextstate[0].OUTPUTSELECT
+JMP => nextstate[1].OUTPUTSELECT
+JMP => nextstate[1].IN1
+JMP => nextstate[2].OUTPUTSELECT
+JMP => nextstate[3].OUTPUTSELECT
+JMP => nextstate[4].DATAA
+JPZ => ~NO_FANOUT~
+JPN => ~NO_FANOUT~
+HLT => ~NO_FANOUT~
+clock => state[0].CLK
+clock => state[1].CLK
+clock => state[2].CLK
+clock => state[3].CLK
+clock => state[4].CLK
+reset => state[0].ACLR
+reset => state[1].ACLR
+reset => state[2].ACLR
+reset => state[3].ACLR
+reset => state[4].ACLR
+c0 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+c2 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+c3 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+c4 <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+c5 <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+c7 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+c8 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+c9 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+c10 <= c10.DB_MAX_OUTPUT_PORT_TYPE
+c12 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+c13 <= <GND>
+c11 <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+c16 <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+c1 <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ControlUnit|ID:ID
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+LDA <= LDA$latch.DB_MAX_OUTPUT_PORT_TYPE
+STA <= STA$latch.DB_MAX_OUTPUT_PORT_TYPE
+ADD <= ADD$latch.DB_MAX_OUTPUT_PORT_TYPE
+SUB <= SUB$latch.DB_MAX_OUTPUT_PORT_TYPE
+XOR <= XOR$latch.DB_MAX_OUTPUT_PORT_TYPE
+INC <= INC$latch.DB_MAX_OUTPUT_PORT_TYPE
+CLR <= CLR$latch.DB_MAX_OUTPUT_PORT_TYPE
+JMP <= JMP$latch.DB_MAX_OUTPUT_PORT_TYPE
+JPZ <= JPZ$latch.DB_MAX_OUTPUT_PORT_TYPE
+JPN <= JPN$latch.DB_MAX_OUTPUT_PORT_TYPE
+HLT <= HLT$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+

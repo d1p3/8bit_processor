@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\dipti.3QTRUS\Documents\ALU_final\simulation\qsim
+vALU_final
+Z1 !s100 ge0PMdoe8em5I5mS:Z5MF3
+Z2 I[cQC9e0AB4JMbE]JK]?HS1
+Z3 VDb>0Zf8XVP5;7<SRW2Phe0
+Z4 dC:\Users\dipti.3QTRUS\Desktop\Class Resources\2441\LABS\Final C\ALU\simulation\qsim
+Z5 w1525376435
+Z6 8ALU_final.vo
+Z7 FALU_final.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|ALU_final.vo|
+Z10 o-work work -O0
+Z11 n@a@l@u_final
+!i10b 1
+!s85 0
+Z12 !s108 1525376436.125000
+Z13 !s107 ALU_final.vo|
+!s101 -O0
+vALU_final_vlg_check_tst
+!i10b 1
+Z14 !s100 hZ6IV@087PNmbnaMLbADc3
+Z15 I]cB>IDE]XF0iO8cHckkgg0
+Z16 VanA[]UbS`nIId8=gaEWA^1
+R4
+Z17 w1525376434
+Z18 8ALU_final.vt
+Z19 FALU_final.vt
+L0 75
+R8
+r1
+!s85 0
+31
+Z20 !s108 1525376436.332000
+Z21 !s107 ALU_final.vt|
+Z22 !s90 -work|work|ALU_final.vt|
+!s101 -O0
+R10
+Z23 n@a@l@u_final_vlg_check_tst
+vALU_final_vlg_sample_tst
+!i10b 1
+Z24 !s100 A?IhKX3oA6O=E?KF5jh[=1
+Z25 I7KQ9931MMe5HYEzHdb2FN3
+Z26 Vk8<`z=RQA3HR76L26[1c`1
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@a@l@u_final_vlg_sample_tst
+vALU_final_vlg_vec_tst
+!i10b 1
+!s100 N05e_@2NMEBbeo5JBjoHY3
+INncQPH23^;YkF2`8N__Ad1
+Z28 V2h@lDd0TBgaoOU473mL9Y2
+R4
+R17
+R18
+R19
+Z29 L0 305
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z30 n@a@l@u_final_vlg_vec_tst

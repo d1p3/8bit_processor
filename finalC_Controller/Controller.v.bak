@@ -1,0 +1,21 @@
+module Controller(
+input LDA,STA,ADD,SUB,XOR,INC,CLR,JMP,JPZ,JPN,HLT,clock,
+output reg PC,MAR,IR,MDO,AC)
+reg[1:0]state,nextstate;
+parameter A=3'b000,B=3'b001,C=3'b010,D=3'b011,E=3'b100,F=3'b110,G=3'b101;
+always @(posedge clock)
+	if(CLR==1) begin state<=A; (AC)<=0;end
+		else state<=nextstate;
+	always@(state,CLR,INC)
+		case(state)
+			A: begin nextstate<=B;(PC)<=0;end
+			B: begin nextstate<=C; (MAR)<=(PC);end
+			C: nextstate<=D;
+			D: nextstate<=E;
+			E: if(ADD==1)begin nextstate<=F; PC<=(PC)+1;end
+				else if(CLR==1) begin nextstate<=G; IR<=(MDO);end
+			F: AC<=(AC)+1;
+			G: AC<=0;	
+		endcase
+		endmodule
+		

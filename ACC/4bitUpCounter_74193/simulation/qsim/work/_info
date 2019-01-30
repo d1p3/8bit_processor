@@ -1,0 +1,85 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\shps2\Quartus\lab6\4bitUpCounter_74193\simulation\qsim
+vFourBitUpCounter
+Z1 !s100 NzPb9Lnf6BScb4MRSU07>2
+Z2 IC2jXzc0ChPmHVQ0E[;46A1
+Z3 VMTlD6_WPRmg?2_3KKlEeU3
+Z4 dC:\Users\shps2\Quartus\lab6\4bitUpCounter_74193\simulation\qsim
+Z5 w1524156727
+Z6 8FourBitUpCounter.vo
+Z7 FFourBitUpCounter.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|FourBitUpCounter.vo|
+Z10 o-work work -O0
+Z11 n@four@bit@up@counter
+!i10b 1
+!s85 0
+Z12 !s108 1524156729.896000
+Z13 !s107 FourBitUpCounter.vo|
+!s101 -O0
+vFourBitUpCounter_vlg_check_tst
+!i10b 1
+Z14 !s100 2lkbLTVXn^kzcE^U`iYgC3
+Z15 Ik1eO@IC[Uz>KM<4CSRb3n2
+Z16 Vb50bKh0jh2VEmO21iDS=G1
+R4
+Z17 w1524156725
+Z18 8FourBitUpCounter.vt
+Z19 FFourBitUpCounter.vt
+L0 69
+R8
+r1
+!s85 0
+31
+Z20 !s108 1524156730.186000
+Z21 !s107 FourBitUpCounter.vt|
+Z22 !s90 -work|work|FourBitUpCounter.vt|
+!s101 -O0
+R10
+Z23 n@four@bit@up@counter_vlg_check_tst
+vFourBitUpCounter_vlg_sample_tst
+!i10b 1
+Z24 !s100 5j]0?80YGQ:U_36R4J`D<0
+Z25 IbV?5c]zA`[PD[Po[hQRl92
+Z26 V^3i;RPL7JQF36lV<A7E@Y0
+R4
+R17
+R18
+R19
+L0 29
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z27 n@four@bit@up@counter_vlg_sample_tst
+vFourBitUpCounter_vlg_vec_tst
+!i10b 1
+Z28 !s100 ^;IT`UaA@Y0oJWSTPOYJM1
+Z29 IXFbzS2Z>l<1[n7EY0K^_z0
+Z30 V4Of>A3lL_`?dJGZW_0imh1
+R4
+R17
+R18
+R19
+Z31 L0 245
+R8
+r1
+!s85 0
+31
+R20
+R21
+R22
+!s101 -O0
+R10
+Z32 n@four@bit@up@counter_vlg_vec_tst

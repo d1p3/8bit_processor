@@ -1,0 +1,359 @@
+$comment
+	File created using the following command:
+		vcd file FourBitUpCounter.msim.vcd -direction
+$end
+$date
+	Thu Apr 19 11:52:11 2018
+$end
+$version
+	ModelSim Version 10.1d
+$end
+$timescale
+	1ps
+$end
+$scope module FourBitUpCounter_vlg_vec_tst $end
+$var reg 1 ! A $end
+$var reg 1 " B $end
+$var reg 1 # C $end
+$var reg 1 $ CLR $end
+$var reg 1 % D $end
+$var reg 1 & load $end
+$var reg 1 ' UP $end
+$var wire 1 ( Aout $end
+$var wire 1 ) Bout $end
+$var wire 1 * Cout $end
+$var wire 1 + Dout $end
+$var wire 1 , sampler $end
+$scope module i1 $end
+$var wire 1 - gnd $end
+$var wire 1 . vcc $end
+$var wire 1 / unknown $end
+$var tri1 1 0 devclrn $end
+$var tri1 1 1 devpor $end
+$var tri1 1 2 devoe $end
+$var wire 1 3 inst|5~combout $end
+$var wire 1 4 inst|51~combout $end
+$var wire 1 5 inst|21~combout $end
+$var wire 1 6 UP~combout $end
+$var wire 1 7 D~combout $end
+$var wire 1 8 load~combout $end
+$var wire 1 9 inst|52~combout $end
+$var wire 1 : CLR~combout $end
+$var wire 1 ; inst|85~0_combout $end
+$var wire 1 < inst|26~1_combout $end
+$var wire 1 = inst|26~3_combout $end
+$var wire 1 > inst|26~0_combout $end
+$var wire 1 ? inst|26~_emulated_regout $end
+$var wire 1 @ inst|26~2_combout $end
+$var wire 1 A C~combout $end
+$var wire 1 B inst|86~0_combout $end
+$var wire 1 C inst|53~combout $end
+$var wire 1 D inst|25~1_combout $end
+$var wire 1 E inst|25~3_combout $end
+$var wire 1 F inst|25~0_combout $end
+$var wire 1 G inst|25~_emulated_regout $end
+$var wire 1 H inst|25~2_combout $end
+$var wire 1 I B~combout $end
+$var wire 1 J inst|54~combout $end
+$var wire 1 K inst|87~0_combout $end
+$var wire 1 L inst|24~1_combout $end
+$var wire 1 M inst|24~3_combout $end
+$var wire 1 N inst|24~0_combout $end
+$var wire 1 O inst|24~_emulated_regout $end
+$var wire 1 P inst|24~2_combout $end
+$var wire 1 Q A~combout $end
+$var wire 1 R inst|55~combout $end
+$var wire 1 S inst|88~0_combout $end
+$var wire 1 T inst|23~1_combout $end
+$var wire 1 U inst|23~3_combout $end
+$var wire 1 V inst|23~0_combout $end
+$var wire 1 W inst|23~_emulated_regout $end
+$var wire 1 X inst|23~2_combout $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+1$
+0%
+1&
+1'
+x(
+x)
+x*
+x+
+x,
+0-
+1.
+x/
+10
+11
+12
+x3
+x4
+x5
+16
+07
+18
+09
+1:
+0;
+x<
+x=
+0>
+0?
+x@
+0A
+0B
+0C
+xD
+xE
+0F
+0G
+xH
+0I
+0J
+0K
+xL
+xM
+0N
+0O
+xP
+0Q
+0R
+0S
+xT
+xU
+0V
+0W
+xX
+$end
+#50000
+0&
+08
+0,
+1S
+1K
+1B
+1;
+0X
+1V
+0T
+0P
+1N
+0L
+0H
+1F
+0D
+0@
+1>
+0<
+1U
+1M
+15
+1E
+14
+1=
+13
+0(
+0)
+0*
+0+
+#100000
+1&
+18
+1,
+0S
+0K
+0B
+0;
+0V
+0N
+0F
+0>
+#150000
+0'
+06
+0,
+1?
+1@
+0=
+1+
+#200000
+1'
+16
+1,
+03
+#250000
+0'
+06
+0,
+13
+1G
+0?
+1H
+0@
+0E
+1=
+1*
+0+
+#300000
+1'
+16
+1,
+#350000
+0'
+06
+0,
+1?
+1@
+0=
+1+
+#400000
+1'
+16
+1,
+04
+03
+#450000
+0'
+06
+0,
+14
+13
+1O
+0G
+0?
+1P
+0H
+0@
+0M
+1E
+1=
+1)
+0*
+0+
+#500000
+1'
+16
+1,
+#550000
+0'
+06
+0,
+1?
+1@
+0=
+1+
+#600000
+1'
+16
+1,
+03
+#650000
+0$
+0'
+0:
+06
+0,
+1S
+1K
+1B
+1;
+13
+1V
+0P
+1N
+1F
+0@
+1>
+1M
+1=
+0)
+0+
+0O
+0?
+#700000
+1!
+1"
+1%
+0&
+1$
+1'
+1Q
+1I
+17
+08
+1:
+16
+1,
+0S
+1R
+0K
+1J
+0;
+19
+1X
+1T
+1P
+1L
+1@
+1<
+03
+1(
+1)
+1+
+#750000
+0!
+0"
+0%
+1&
+0Q
+0I
+07
+18
+0,
+0R
+0J
+09
+0B
+0V
+0N
+0>
+0F
+#800000
+0'
+06
+1,
+13
+1G
+1?
+1H
+0@
+0E
+0=
+1*
+0+
+#850000
+1'
+16
+0,
+#900000
+0'
+06
+1,
+0?
+1@
+1=
+1+
+#950000
+1'
+16
+0,
+05
+04
+03
+#1000000

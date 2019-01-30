@@ -1,0 +1,89 @@
+|adder_with_overflow
+Cout <= ripple_carry_prelab:inst.Cout
+A0 => ripple_carry_prelab:inst.A0
+B0 => inst2.IN0
+AddSub => inst2.IN1
+AddSub => ripple_carry_prelab:inst.ADDorSubtract
+AddSub => inst5.IN1
+AddSub => inst3.IN1
+AddSub => inst4.IN1
+A1 => ripple_carry_prelab:inst.A1
+B1 => inst5.IN0
+B2 => inst3.IN0
+A2 => ripple_carry_prelab:inst.A2
+B3 => inst4.IN0
+A3 => ripple_carry_prelab:inst.A3
+A3 => inst12.IN0
+A3 => And_gate.IN1
+R0 <= ripple_carry_prelab:inst.R0
+R1 <= ripple_carry_prelab:inst.R1
+R2 <= ripple_carry_prelab:inst.R2
+R3 <= ripple_carry_prelab:inst.R3
+OVR <= inst6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_with_overflow|ripple_carry_prelab:inst
+R1 <= lab2:inst1.pin_name1
+A1 => lab2:inst1.A
+B1 => inst5.IN0
+ADDorSubtract => inst5.IN1
+ADDorSubtract => inst4.IN1
+ADDorSubtract => lab2:inst.C
+ADDorSubtract => inst7.IN1
+ADDorSubtract => inst6.IN1
+A0 => lab2:inst.A
+B0 => inst4.IN0
+R3 <= lab2:inst3.pin_name1
+A3 => lab2:inst3.A
+B3 => inst7.IN0
+A2 => lab2:inst2.A
+B2 => inst6.IN0
+Cout <= lab2:inst3.pin_name2
+R0 <= lab2:inst.pin_name1
+R2 <= lab2:inst2.pin_name1
+
+
+|adder_with_overflow|ripple_carry_prelab:inst|lab2:inst1
+pin_name1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C => inst1.IN1
+C => inst3.IN0
+pin_name2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_with_overflow|ripple_carry_prelab:inst|lab2:inst
+pin_name1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C => inst1.IN1
+C => inst3.IN0
+pin_name2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_with_overflow|ripple_carry_prelab:inst|lab2:inst3
+pin_name1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C => inst1.IN1
+C => inst3.IN0
+pin_name2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|adder_with_overflow|ripple_carry_prelab:inst|lab2:inst2
+pin_name1 <= inst1.DB_MAX_OUTPUT_PORT_TYPE
+A => inst.IN0
+A => inst2.IN0
+B => inst.IN1
+B => inst2.IN1
+C => inst1.IN1
+C => inst3.IN0
+pin_name2 <= inst4.DB_MAX_OUTPUT_PORT_TYPE
+
+
